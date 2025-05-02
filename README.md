@@ -1,18 +1,19 @@
 Huffman Coding in Pure C++
-This project is a from-scratch implementation of Huffman Encoding and Decoding using only native C++. I manually implemented all the data structures and algorithms — no STL containers, no external libraries, just pure logic and code.
+This project is a from-scratch implementation of Huffman Encoding and Decoding using only native C++.
+I manually implemented all the data structures and algorithms — no STL containers, no external libraries, just pure logic and code.
 
 🚀 Overview
-Huffman coding is a powerful lossless compression algorithm. In this project, I built the entire Huffman Tree structure, priority queue system, and encoding/decoding logic completely on my own.
+Huffman coding is a powerful lossless compression algorithm.
+In this project, I built the entire Huffman Tree structure, priority queue system, and encoding/decoding logic completely on my own.
 
 This program:
+Calculates the frequency of each character in the input
 
-Calculates the frequency of each character in the input.
+Builds a Huffman Tree manually using a custom linked list-based priority queue
 
-Builds a Huffman Tree manually using a custom linked list-based priority queue.
+Encodes the input string into a binary sequence
 
-Encodes the input string into a binary sequence.
-
-Decodes the binary back to the original text.
+Decodes the binary back to the original text
 
 🔧 What I Built From Scratch
 ✅ Manual Pair struct for frequency and character tracking
@@ -27,14 +28,14 @@ Encoding characters and full strings
 Decoding binary Huffman-encoded strings
 ✅ User input handling, frequency table building, and Huffman output
 
-
- Data Structures Used
-All data structures are manually created, including:
+🧱 Data Structures Used
+All data structures were manually created, including:
 
 Pair — stores frequency and character
 
 Node — represents a node in the Huffman Tree
 
-Queue_Node — for linked list queue nodes
+Queue_Node — used for linked list queue nodes
 
 Linked_list_Queue — manually sorted queue used for building the tree
+
